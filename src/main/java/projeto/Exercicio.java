@@ -1,4 +1,4 @@
-package main.java.MySQLConnector;
+package main.java.projeto;
 
 public class Exercicio {
 	private int id;
