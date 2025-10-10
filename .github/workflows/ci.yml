@@ -18,7 +18,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        cache: maven
+        
         
     - name: Build with Maven and Run Tests
       run: mvn -B package
