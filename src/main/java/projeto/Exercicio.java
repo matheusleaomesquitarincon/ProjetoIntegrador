@@ -1,4 +1,4 @@
-package main.java.projeto;
+package projeto;
 
 public class Exercicio {
 	private int id;
