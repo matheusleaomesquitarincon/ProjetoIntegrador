@@ -1,4 +1,4 @@
-package test.java;
+package test.java.projeto;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -14,7 +14,7 @@ public class TesteGeral {
     void classeEmetodoPrincipalExistem() {
         try {
            
-            Class<?> mainClass = Class.forName("MySQLConnector.AtividadeFinal11");
+            Class<?> mainClass = Class.forName("projeto.AtividadeFinal11");
             assertNotNull(mainClass, "A classe AtividadeFinal11.java deve existir.");
 
             
