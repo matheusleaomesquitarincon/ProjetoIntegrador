@@ -21,5 +21,6 @@ jobs:
         
         
     - name: Build with Maven and Run Tests
+      working-directory: ./QuizByte
       run: mvn -B package
-      working-directory: QuizByte
+      
