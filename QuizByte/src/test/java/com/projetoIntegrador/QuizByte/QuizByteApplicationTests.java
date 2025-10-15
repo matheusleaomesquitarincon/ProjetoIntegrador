@@ -2,15 +2,16 @@ package com.projetoIntegrador.QuizByte;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
-import org.springframework.security.access.SecurityConfig;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.TestPropertySource;
 
 @SpringBootTest
-@Import(SecurityConfig.class) // sua configuração de senha/encoder sem filtros
+@ActiveProfiles("test")
+@TestPropertySource(locations = "classpath:application-test.properties")
 class QuizByteApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
-
+    @Test
+    void contextLoads() {
+        System.out.println("Context loaded successfully!");
+    }
 }
