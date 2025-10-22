@@ -1,5 +1,9 @@
+package com.projetoIntegrador.QuizByte.repository;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AdminService extends JpaRepository<Admin, Long> {
+import com.projetoIntegrador.QuizByte.model.Admin;
+
+public interface AdminRepository extends JpaRepository<Admin, Long> {
     
 }

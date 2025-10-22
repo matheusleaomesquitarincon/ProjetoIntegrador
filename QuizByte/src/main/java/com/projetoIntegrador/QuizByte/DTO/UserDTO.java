@@ -1,11 +1,13 @@
+package com.projetoIntegrador.QuizByte.DTO;
 
+import lombok.Data;
 
-@EqualsAndHashCode(callSuper = true)
 @Data
 public abstract class UserDTO {
     
     private long id;
     private String name;
+    private String username;
     private String email;
     private String passwordHash;
 }

@@ -1,3 +1,9 @@
+package com.projetoIntegrador.QuizByte.DTO;
+
+import com.projetoIntegrador.QuizByte.model.Question;
+
+import lombok.Data;
+
 @Data
 public class QuestionDTO {
     

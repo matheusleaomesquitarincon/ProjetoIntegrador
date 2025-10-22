@@ -1,5 +1,9 @@
+package com.projetoIntegrador.QuizByte.repository;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface NoteService extends JpaRepository<Note, Long> {
+import com.projetoIntegrador.QuizByte.model.Note;
+
+public interface NoteRepository extends JpaRepository<Note, Long> {
     
 }
